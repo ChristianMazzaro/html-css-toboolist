@@ -34,6 +34,11 @@ body{
     background-color: rgb(108, 194, 227);
 }
 
+p{
+    padding-top: 20px;
+   padding-bottom: 35px;
+}
+
 
 /*
 
@@ -83,4 +88,33 @@ MAIN
     border: 2px solid lightgrey;
     border-radius: 11%;
     padding: 5px;
+}
+
+.section1{
+    padding-top: 40px;
+    padding-left: 60px;
+
+
+}
+
+.check{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid green;
+    color: green;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.not-check{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid red;
+    color: red;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
 }
