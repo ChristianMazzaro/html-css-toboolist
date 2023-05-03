@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- parte dell'head con link e titolo -->
+    <!-- parte dell'head con link a css e google font e titolo -->
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,40 +14,54 @@
     <title>Toboolist</title>
 </head>
 <body>
+    <!-- inizio header -->
     <header class="background-white">
        <img id="main-logo" src="img/Logo.png" alt="">
         <h1>Toboolist</h1>
     </header>
+    <!-- fine header -->
+
+    <!-- inizio main -->
     <main>
+        <!-- inizio primo contenitore -->
         <div class=" background-white adding-options container">
+
            <span class="button1 background-skyblue">add task</span>
+
            <span class="button2">add section</span>
+
         </div>
-        <div class="container background-white">
+        <!-- fine primo contenitore -->
+        <!-- secondo contenitore -->
+        <div class="container background-white paddding-bottom">
 
+            <!-- prima sezione -->
             <section class="section1">
-                <h3>New task</h3>
-                <p> <span class="check">&check;</span> Quarterly Newsletter</p>
+                <h2><span> &blacktriangledown;</span> New task</h2>
+                <p> <span class="check">&check;</span> Quarterly Newsletter <span class="label background-skyblue">Editorial</span></p>
             </section>
 
+            <!-- seconda sezione -->
             <section class="section1">
-                <h3>Today</h3>
-                <p> <span class="check">&check;</span> Recruiting blog post</p>
-                <p> <span class="check">&check;</span> Mobile app launch</p>
-                <p> <span class="not-check">&cross;</span> Interview John H.</p>
-                <p> <span class="check">&check;</span> Summit update to mobile storefronts</p>
+                <h2><span> &blacktriangledown;</span> Today</h2>
+                <p> <span class="check">&check;</span> Recruiting blog post <span class="label background-skyblue">Editorial</span></p>
+                <p> <span class="check">&check;</span> Mobile app launch <span class="label background-purple">Q1 Goals</span></p>
+                <p> <span class="not-check">&cross;</span> Interview John H. <span class="label background-green">Recruiting</span></p>
+                <p> <span class="check">&check;</span> Summit update to mobile storefronts <span class="label background-orange">Mobile</span></p>
             </section>
-    
+            
+            <!-- terza sezione -->
             <section class="section1">
-                <h3>Upcoming</h3>
+                <h2><span> &blacktriangledown;</span> Upcoming</h2>
                 <p> <span class="not-check">&cross;</span> Schedule meeting with Alex</p>
-                <p> <span class="check">&check;</span> Homepage refresh</p>
-                <p> <span class="check">&check;</span> Onboard new Sales team members</p>
-                <p> <span class="check">&check;</span> Review editorial calendar</p>
+                <p> <span class="check">&check;</span> Homepage refresh <span class="label background-pink">Website</span></p>
+                <p> <span class="check">&check;</span> Onboard new Sales team members <span class="label background-olive">Sales</span></p>
+                <p> <span class="check ">&check;</span> Review editorial calendar <span class="label background-skyblue">Editorial</span></p>
             </section>
 
         </div>
-       
+        <!-- fine secondo contenitore -->
     </main>
+    <!-- fine main -->
 </body>
 </html>

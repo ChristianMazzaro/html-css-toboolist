@@ -20,6 +20,13 @@ body{
 }
 
 
+
+p{
+    padding-top: 20px;
+}
+
+
+
 .container{
     width: 75%;
     margin: 0 auto;
@@ -34,10 +41,40 @@ body{
     background-color: rgb(108, 194, 227);
 }
 
-p{
-    padding-top: 20px;
-   padding-bottom: 35px;
+
+.background-purple{
+    background-color: rgb(136, 47, 136);
 }
+
+
+
+.background-green{
+    background-color: lightseagreen;
+}
+
+
+
+.background-orange{
+    background-color: orange;
+}
+
+
+
+.background-pink{
+    background-color: rgb(218, 124, 209);
+}
+
+
+
+.background-olive{
+    background-color: rgb(146, 193, 77);
+}
+
+
+.paddding-bottom{
+    padding-bottom: 50px;
+}
+
 
 
 /*
@@ -117,4 +154,12 @@ MAIN
     display: inline-block;
     text-align: center;
     line-height: 25px;
+}
+
+
+.label{
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 20px;
 }
